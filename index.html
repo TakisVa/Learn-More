@@ -1,105 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="el">
 <head>
-  <meta charset="UTF-8" />
-  <title>How Cookie Protection Works</title>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Silent Guardian - Learn More</title>
   <style>
-    body {
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-      background: #f7f7f7;
-      color: #333;
-      padding: 24px;
-      max-width: 820px;
-      margin: auto;
-      line-height: 1.6;
-    }
-    h1, h2 {
-      color: #111;
-    }
-    h1 {
-      margin-bottom: 0.5em;
-    }
-    section {
-      margin-bottom: 32px;
-    }
-    .box {
-      background: #fff;
-      padding: 16px 20px;
-      border-radius: 8px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-    }
+    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 20px; background: #f8f9fa; color: #333; }
+    .container { max-width: 800px; margin: 0 auto; background: white; padding: 40px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+    h1 { color: #1a73e8; text-align: center; }
+    h2 { color: #202124; border-bottom: 2px solid #e8eaed; padding-bottom: 10px; }
+    h3 { color: #5f6368; }
+    ul { padding-left: 20px; }
+    .donate { text-align: center; margin: 40px 0; font-size: 18px; }
+    .donate a { background: #ff5722; color: white; padding: 14px 28px; border-radius: 8px; text-decoration: none; font-weight: bold; }
+    .donate a:hover { background: #e64a19; }
+    .note { background: #e8f0fe; padding: 15px; border-radius: 8px; font-size: 14px; }
   </style>
 </head>
 <body>
+  <div class="container">
 
-<h1>How Cookie Protection Works</h1>
+    <h1>Silent Guardian</h1>
+    <p style="text-align:center; font-size:18px; color:#5f6368;">
+      Προστατεύει την ιδιωτικότητά σας – ήρεμα και αποτελεσματικά
+    </p>
 
-<section class="box">
-  <h2>What this extension does</h2>
-  <p>
-    This extension automatically removes unnecessary cookies that don’t contribute
-    to your browsing experience, privacy, or security.
-  </p>
-  <p>
-    Some cookies are required temporarily for websites to function correctly.
-    These are handled safely and removed when appropriate.
-  </p>
-</section>
+    <h2>Τι είναι το Silent Guardian;</h2>
+    <p>Το Silent Guardian είναι ένα δωρεάν extension για Chrome και Edge που καθαρίζει αυτόματα ανεπιθύμητα cookies και trackers, ενώ διατηρεί τα cookies που χρειάζεστε για να λειτουργούν σωστά οι ιστοσελίδες.</p>
 
-<section class="box">
-  <h2>Clean Now vs Smart Protection</h2>
-  <p><strong>Clean Now</strong><br>
-    A manual cleanup that removes unnecessary cookies at the moment you click.
-  </p>
-  <p><strong>Smart Protection</strong><br>
-    Automatic background protection that continuously removes unnecessary cookies
-    without interrupting your browsing.
-  </p>
-</section>
+    <h2>Πώς λειτουργεί</h2>
+    
+    <h3>1. Clean Now</h3>
+    <p>Καθαρίζει αμέσως τα tracking και advertising cookies με ένα κλικ.</p>
 
-<section class="box">
-  <h2>Why some cookies may remain</h2>
-  <p>
-    Some cookies must remain temporarily to keep you logged in,
-    prevent site breakage, and ensure security and stability.
-  </p>
-  <p>
-    These cookies are not ignored — they are removed automatically
-    once they are no longer needed.
-  </p>
-</section>
+    <h3>2. Smart Protection</h3>
+    <p>Ενεργοποιήστε το και το extension καθαρίζει αυτόματα κάθε 30 λεπτά στο παρασκήνιο, χωρίς να σας ενοχλεί.</p>
 
-<section class="box">
-  <h2>About “Legitimate Interest”</h2>
-  <p>
-    Some vendors operate under legitimate interest rather than consent.
-    These are often related to analytics, security, or basic advertising infrastructure.
-  </p>
-  <p>
-    The extension prioritizes browser stability first and removes unnecessary
-    cookies under legitimate interest when it is safe to do so.
-  </p>
-</section>
+    <h3>3. Bulk Opt-Out</h3>
+    <p>Σε ιστοσελίδες με εκατοντάδες vendors, το Bulk Opt-Out ξετσεκάρει μαζικά όλους τους διαφημιστικούς και tracking vendors και πατάει αυτόματα "Save". Δεν χρειάζεται να τα κάνετε ένα-ένα.</p>
 
-<section class="box">
-  <h2>Logged out of a site?</h2>
-  <p>
-    If you were logged out, it means essential session cookies were removed.
-  </p>
-  This is expected behavior for strict privacy cleanup.
-  <p>
-    Add the page to the whitelist so that it is excluded by the extension.
-  </p>
-</section>
+    <h3>4. Whitelist & Blacklist</h3>
+    <ul>
+      <li><strong>Whitelist:</strong> Εξαιρέστε sites που θέλετε να μην καθαρίζονται ποτέ (π.χ. τραπεζικά sites, email, shopping).</li>
+      <li><strong>Blacklist:</strong> Προσθέστε domains που θέλετε να διαγράφονται πάντα.</li>
+    </ul>
 
-<section class="box">
-  <h2>Status indicators</h2>
-  <p>
-    <strong>Active</strong> means protection is running normally.<br>
-    <strong>Inactive</strong> means an error occurred and protection is temporarily paused.
-  </p>
-</section>
+    <h2>Γιατί μένουν κάποια cookies;</h2>
+    <p class="note">
+      Το Silent Guardian <strong>δεν σβήνει</strong> τα απαραίτητα cookies για login, session, καλάθι αγορών και προτιμήσεις σας. 
+      Τα διατηρεί για να μην χαλάσει η εμπειρία σας στις ιστοσελίδες.
+    </p>
 
+    <h2>Απόλυτη Ιδιωτικότητα</h2>
+    <p>
+      • Δεν συλλέγουμε κανένα δεδομένο σας.<br>
+      • Όλες οι λειτουργίες γίνονται τοπικά στον browser σας.<br>
+      • Δεν υπάρχουν servers, analytics ή παρακολούθηση.<br>
+      • Το extension είναι 100% offline και ιδιωτικό.
+    </p>
+
+    <h2>Πώς να το εγκαταστήσετε</h2>
+    <p>
+      1. Κατεβάστε το από το Chrome Web Store.<br>
+      2. Πατήστε "Προσθήκη στο Chrome".<br>
+      3. Το εικονίδιο θα εμφανιστεί δίπλα στη γραμμή διευθύνσεων.
+    </p>
+
+    <div class="donate">
+      <p><strong>Το Silent Guardian είναι εντελώς δωρεάν.</strong></p>
+      <p>Αν σας βοηθάει και θέλετε να στηρίξετε τη συνέχισή του:</p>
+      <a href="https://ko-fi.com/privsecauto" target="_blank">Donate ❤️ – Υποστηρίξτε το έργο</a>
+    </div>
+
+    <p style="text-align:center; color:#666; font-size:14px; margin-top:40px;">
+      Ευχαριστούμε που χρησιμοποιείτε το Silent Guardian!<br>
+      Η ιδιωτικότητά σας είναι προτεραιότητά μας.
+    </p>
+
+  </div>
 </body>
 </html>
